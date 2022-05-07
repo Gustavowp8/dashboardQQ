@@ -197,4 +197,7 @@ border-radius: 15px;
     #ver{
         color: red;
     }
+    .telaPrincipal{
+        display: none;
+    }
 }
