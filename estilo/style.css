@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Ubuntu:wght@300&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.menu{
+    background: #F1F2F7;
+    width: 240px;
+    padding: 20px;
+}
+
+.principal{
+    display: flex;
+}
+
+.menu2 p{
+    color: #273240;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.menu2 p:hover{
+    background: #ffffff;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08), 0px 4px 8px rgba(50, 50, 71, 0.006);
+    border-radius: 15px;
+    color: #5A6ACF;
+}
+
+#questao img{
+    margin-right: 5px;
+}
+
+#dropG{
+    display: none;
+    background: #707FDD;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: -15px;
+}
+#dropG p{
+    padding: 5px;
+}
+
+#dropG.active{
+    display: block;
+}
+
+/*===================*/
+
+#simulaG{
+    display: none;
+    background: #707FDD;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: -15px;
+    transition: all 0.5s;
+}
+
+#simulaG.ativado{
+    display: block;
+}
+/*==================*/
+
+#select{
+background: #FFFFFF;
+border: 1px solid #F2F2F7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08), 0px 4px 8px rgba(50, 50, 71, 0.006);
+border-radius: 15px;
+}
+
+#questao{
+    background: #FFFFFF;
+    border: 1px solid #F2F2F7;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08), 0px 4px 8px rgba(50, 50, 71, 0.006);
+    border-radius: 15px;
+}
+
+/*========================*/
+#localLogo{
+    width: 240px;
+    text-align: center;
+    padding: 10px;
+    background: #F1F2F7;
+}
+
+#opcUser{
+    width: 240px;
+    text-align: center;
+    padding: 10px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+#opcUser img{
+    width: 32px;
+    height: 32px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+#dropdown{
+    background: #f1f2f700;
+}
+#dropdownMenuButton1{
+    background: #f1f2f700;
+    color: #1F384C;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 13px;
+    border: none;
+}
+
+.header{
+    border-bottom: 1px solid #C8CBD9;
+}
+
+.telaPrincipal{
+    background: #F1F2F7;
+     width: 1200px;
+}
+
+.inicio{
+    width: 500px;
+    height: 500px;
+    background: #F1F2F7;
+    margin: auto;
+    margin-top: 20%;
+}
+.avisoInicio{
+    width: 400px;
+    margin: auto;
+    margin-top: 30%;
+    text-align: center;
+}
+
+.avisoCel{
+    display: block;
+}
+
+@media(max-width: 500px){
+    .avisoCel{
+        background: white;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+    .avisoCel2 img{
+        width: 250px;
+    }
+    .avisoCel2{
+        
+        width: 400px;
+        text-align: center;
+        margin: auto;
+        margin-top: 15%;
+    }
+    #ver{
+        color: red;
+    }
+}
