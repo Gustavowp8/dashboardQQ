@@ -151,11 +151,27 @@ border-radius: 15px;
 }
 
 .avisoCel{
-    display: block;
+    display: none;
+}
+
+#titulo{
+    color: #273240;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 12px;
+    line-height: 12px;
+}
+
+#titulo:hover{
+    background: #F1F2F7;
+    border-radius: 1px;
+    box-shadow: none;
 }
 
 @media(max-width: 500px){
     .avisoCel{
+        display: block;
         background: white;
         position: fixed;
         top: 0;
