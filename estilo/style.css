@@ -170,6 +170,12 @@ border-radius: 15px;
 }
 
 @media(max-width: 500px){
+    .principal{
+        display: none;
+    }
+    .header{
+        display: none;
+    }
     .avisoCel{
         display: block;
         background: white;
@@ -180,11 +186,10 @@ border-radius: 15px;
         height: 100%;
     }
     .avisoCel2 img{
-        width: 250px;
+        width: 200px;
     }
     .avisoCel2{
-        
-        width: 400px;
+        width: 200px;
         text-align: center;
         margin: auto;
         margin-top: 15%;
