@@ -19,21 +19,3 @@ function chamaSimula(){
     simulaG.classList.toggle('ativado')
 }
 simula.addEventListener('click', chamaSimula);
-
-/*====== Links ========*/
-function IrTodasQestoes(){
-    location='paginas/01todasAsQuestoes.html'
-}
-/*====== Links ========*/
-
-
-/*========*/
-
-const opcoes = document.getElementById('localLogo')
-
-function abrirOpcs(){
-    const menu =document.getElementById('menu')
-    menu.classList.toggle('opcoesG')
-}
-
-opcoes.addEventListener('click', abrirOpcs)

@@ -7,14 +7,25 @@ body{
     font-family: 'Ubuntu', sans-serif;
 }
 
-.menu{
+#menu{
     background: #F1F2F7;
     width: 240px;
     padding: 20px;
+    position: absolute;
+    display: none;
 }
 
-.principal{
-    display: flex;
+#menu.opcoesG{
+    display: block;
+}
+
+#principal{
+    display: block;
+    padding: 10px;
+}
+
+.marca{
+    padding: 10px;
 }
 
 .menu2 p{
@@ -79,11 +90,11 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08), 0px 4px 8px rgba(50, 50, 71, 0.006)
 border-radius: 15px;
 }
 
-#questao{/*
+#questao{
     background: #FFFFFF;
     border: 1px solid #F2F2F7;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.08), 0px 4px 8px rgba(50, 50, 71, 0.006);
-    border-radius: 15px;*/
+    border-radius: 15px;
 }
 
 /*========================*/
@@ -132,8 +143,8 @@ border-radius: 15px;
 }
 
 .telaPrincipal{
-    background: #F1F2F7;
-     width: 1200px;
+    background: #ffffff;
+     padding: 10px;
 }
 
 .inicio{
@@ -167,6 +178,111 @@ border-radius: 15px;
     background: #F1F2F7;
     border-radius: 1px;
     box-shadow: none;
+}
+
+.menorMenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+#areaDeBtns{
+    display: flex;
+   /* background: darkkhaki;*/
+    align-items: center;
+}
+
+#areaDeBtns h1{
+    margin-right: 20px;
+    margin-top: 5px;
+    color: #1F384C;
+    font-weight: 1000;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+#areaDeBtns button{
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 31px;
+    margin: 10px;
+    color: #5A6ACF;
+
+    background: #FBFCFE;
+    border: 0.5px solid #DDE4F0;
+    box-shadow: 0px 2px 1px rgba(64, 72, 82, 0.05);
+    border-radius: 5px;
+    font-weight: 800;
+}
+
+#areaDeBtns button:hover{
+    background: #5A6ACF;
+    color: #ffffff;
+}
+
+#buscaN{
+    max-width: 500px;
+}
+
+#btnBusca{
+    background: #5A67BA;
+    border-radius: 5px;
+}
+
+.filtros{
+    display: flex;
+}
+
+.filtros p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 23px;
+    margin-left: 10px;
+}
+
+#ver2{
+    color: #5A6ACF;
+}
+
+#ver{
+    color: red;
+}
+
+.apliarFiltros{
+    padding-left: 10px;
+}
+
+#aolicaAcao{
+    height: 30px;
+    background: #1E49E2;
+    border: 1px solid #1E49E2;
+    color: #FFFFFF;
+    margin-right: 20px;
+}
+
+#sobFiltro{
+    background: #FFFFFF;
+    border: 0.5px solid #686F78;
+    border-radius: 3px;
+    width: 168px;
+    height: 31px;
+}
+
+.selecao{
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+    display: flex;
+    justify-content: space-between;
+    background: #F6F6FB;
+    border: 1px solid #C4C4C4;
+    align-items: center;
+    height: 32px;
+}
+
+.selecao p{
+    margin-top: 15px;
 }
 
 @media(max-width: 500px){
