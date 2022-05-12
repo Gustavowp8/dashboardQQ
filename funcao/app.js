@@ -24,6 +24,10 @@ simula.addEventListener('click', chamaSimula);
 function IrTodasQestoes(){
     location='../paginas/01todasAsQuestoes.html'
 }
+
+function IrTodasQestoesInicial(){
+    location='paginas/01todasAsQuestoes.html'
+}
 /*====== Links ========*/
 
 
