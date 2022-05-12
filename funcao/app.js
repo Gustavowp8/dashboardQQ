@@ -25,7 +25,7 @@ function IrTodasQestoes(){
     location='../paginas/01todasAsQuestoes.html'
 }
 
-function IrTodasQestoesInicial(){
+function IrInicial(){
     location='paginas/01todasAsQuestoes.html'
 }
 /*====== Links ========*/
