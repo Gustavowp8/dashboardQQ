@@ -11,7 +11,7 @@ function toggleMenu(){
 
 quest.addEventListener('click', toggleMenu);
 
-/*================================================*/
+/*==============================================*/
 
 const simula = document.getElementById('simulados');
 function chamaSimula(){
@@ -22,7 +22,7 @@ simula.addEventListener('click', chamaSimula);
 
 /*====== Links ========*/
 function IrTodasQestoes(){
-    location='paginas/01todasAsQuestoes.html'
+    location='../paginas/01todasAsQuestoes.html'
 }
 /*====== Links ========*/
 
@@ -37,3 +37,21 @@ function abrirOpcs(){
 }
 
 opcoes.addEventListener('click', abrirOpcs)
+
+/*==============*/
+function fechaAcesso(){
+    const nome = document.getElementById('nNome').value
+
+    const senha = document.getElementById('tSenha').value
+
+    console.log(nome)
+    console.log(senha)
+
+    if(nome == "" || senha == ""){
+        alert('Falta dados')
+    } else if(nome != "admin3636" || senha != "5153"){
+        alert('Verifique os dados, acesso negado')
+    } else {
+        avisoAcesso.style.display='none'
+    }
+}
